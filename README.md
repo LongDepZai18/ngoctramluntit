@@ -1,1 +1,115 @@
-# ngoctramluntit
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Giới thiệu bản thân</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card {
+            background: white;
+            width: 420px;
+            border-radius: 18px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+            padding: 30px;
+            text-align: center;
+        }
+
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+            color: white;
+            margin: 0 auto 15px;
+        }
+
+        h1 {
+            margin: 10px 0;
+            color: #333;
+        }
+
+        .info {
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        .info p {
+            margin: 8px 0;
+            color: #555;
+            font-size: 15px;
+        }
+
+        .info span {
+            font-weight: 600;
+            color: #333;
+        }
+
+        .hobbies {
+            margin-top: 20px;
+        }
+
+        .hobby {
+            display: inline-block;
+            background: #f1f1f1;
+            padding: 6px 14px;
+            border-radius: 20px;
+            margin: 5px;
+            font-size: 14px;
+        }
+
+        .contact {
+            margin-top: 25px;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+        }
+
+        .contact a {
+            text-decoration: none;
+            color: #6a5acd;
+            font-weight: 500;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="avatar">🌸</div>
+        <h1>Trịnh Ngọc Trâm</h1>
+
+        <div class="info">
+            <p><span>Ngày sinh:</span> 19/06/2008</p>
+            <p><span>Giới tính:</span> Nữ</p>
+            <p><span>Địa chỉ:</span> Yên Trường, Thanh Hoá</p>
+        </div>
+
+        <div class="hobbies">
+            <p><strong>Sở thích</strong></p>
+            <span class="hobby">🎬 Xem phim</span>
+            <span class="hobby">💄 Làm đẹp</span>
+        </div>
+
+        <div class="contact">
+            <p><strong>Liên hệ</strong></p>
+            <p>Email: <a href="mailto:example@email.com">example@email.com</a></p>
+        </div>
+    </div>
+
+</body>
+</html>
